@@ -35,7 +35,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573587924648" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573663410245" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -50,8 +50,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Teste.deveRetornarAreaTriangulo">
-    <configuration name="Teste.deveInverterTexto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Teste">
+    <configuration name="Teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Db1StartAula02" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +61,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.Teste" />
-      <option name="METHOD_NAME" value="deveInverterTexto" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Teste" />
         <item itemvalue="JUnit.Teste.deveRetornarAreaTriangulo" />
         <item itemvalue="JUnit.Teste.deveRetornarMediaDe3" />
         <item itemvalue="JUnit.Teste.deveRetornarMenorDouble3" />
         <item itemvalue="JUnit.Teste.deveRetornarMenorDouble" />
-        <item itemvalue="JUnit.Teste.deveInverterTexto" />
       </list>
     </recent_temporary>
   </component>
