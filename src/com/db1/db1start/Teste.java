@@ -57,6 +57,15 @@ public class Teste {
         Integer response = application.impares(22);
         Assert.assertEquals(expected, response);
     }
+
+    @Test
+    public void deveRetornarImparesDesafio(){
+        Application application = new Application();
+        Integer expected = 11;
+        Integer response = application.impardesafio(22);
+        Assert.assertEquals(expected, response);
+    }
+
     // --------------- exercicios texto ---------------
     @Test
     public void deveRetornarLetrasMaiusculas(){
@@ -76,7 +85,7 @@ public class Teste {
     @Test
     public void deveContarLetrasDoTexto(){
         Application application = new Application();
-        Integer expected = 8;
+        Integer expected = 7;
         Integer response = application.contatexto("DB1START");
         Assert.assertEquals(expected, response);
     }
@@ -84,10 +93,19 @@ public class Teste {
     @Test
     public void deveContarLetrasSemEspaco(){
         Application application = new Application();
-        Integer expected = 8;
+        Integer expected = 7;
         Integer response = application.contatextosemespaco(" DB1START ");
         Assert.assertEquals(expected, response);
     }
+    @Test
+    public void deveRetornarTextoSemEspaco(){
+        Application application = new Application();
+        String expected = "DB1START";
+        String response = application.retornatexto(" DB1START ");
+        Assert.assertEquals(expected, response);
+    }
+
+
     @Test
     public void deveRetornar4PrimeirasLetras(){
         Application application = new Application();
@@ -95,14 +113,28 @@ public class Teste {
         String response = application.primeirasletras("Bruno Gobo Soares");
         Assert.assertEquals(expected, response);
     }
-     @Test
+    @Test
+    public void deveSepararOTexto(){
+        Application application = new Application();
+        String expected = "banana maçã melancia";
+        String response = application.separartexto("banana, maçã, melancia");
+        Assert.assertEquals(expected, response);
+    }
+    @Test
+    public void deveSepararOTexto2(){
+        Application application = new Application();
+        String [] expected = new String [] {"banana maçã melancia"};
+        String response = application.separartexto("banana, maçã, melancia");
+        Assert.assertEquals(expected, response);
+    }
+    @Test
     public void deveRetornarApartirDaTerceiraLetra(){
         Application application = new Application();
         String expected = "no Gobo Soares";
         String response = application.terceiraemdiante("Bruno Gobo Soares");
         Assert.assertEquals(expected, response);
     }
-     @Test
+    @Test
     public void deveRetornarUltimas4Letras(){
         Application application = new Application();
         String expected = "ares";
@@ -116,13 +148,7 @@ public class Teste {
         String response = application.primeironome("Bruno Gobo Soares");
         Assert.assertEquals(expected, response);
      }
-    @Test
-    public void deveSepararOTexto(){
-        Application application = new Application();
-        String expected = "banana maçã melancia";
-        String response = application.separartexto("banana, maçã, melancia");
-        Assert.assertEquals(expected, response);
-     }
+
     @Test
     public void deveContarVogais(){
         Application application = new Application();
@@ -137,6 +163,8 @@ public class Teste {
         String response = application.invertertexto("ABC");
         Assert.assertEquals(expected, response);
      }
+
+    // --------------- exercicios Double---------------
     @Test
     public void deveRetornarMenorDouble(){
         Application application = new Application();
@@ -159,13 +187,12 @@ public class Teste {
         Assert.assertEquals(expected, response);
      }
     @Test
-    public void deveRetornarAreaTriangulo(){
+    public void deveRetornarAreaTrianguloPorBaseAltura(){
         Application application = new Application();
         Double expected = 187.5;
         Double response = application.areatriangulo(25.0, 15.0);
         Assert.assertEquals(expected, response);
      }
-
 
 
 
