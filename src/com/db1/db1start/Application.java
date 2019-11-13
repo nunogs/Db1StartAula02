@@ -80,13 +80,17 @@ public class Application {
 
     // Ex 4  Método que receba DB1START (tendo um espaço no inicio e no fim da palavra) e retorne a quantidade de letras que existe
     public Integer contatextosemespaco(String texto){
-        String textosemespaco = removeNumeros(texto);
-        return (textosemespaco.length());
+        String textosemespaco = removeEspaco(texto);
+        return (removeNumeros(textosemespaco).length());
+    }
+
+    private String removeEspaco(String texto) {
+        return texto.trim();
     }
 
     // Ex 5  Método que retorne o texto do item 4 com a mesma quantidade de letras do item 3.
     public String retornatexto(String texto){
-        return texto.replaceAll(" ","");
+        return (removeEspaco(removeNumeros(texto)));
     }
 
     // Ex 6  Método que receba o seu nome completo e exiba somente as 4 primeiras letras do seu nome

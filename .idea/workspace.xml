@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="062547c2-732b-4103-9052-b5cd17897ec3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/Teste.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +15,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+            <state relative-caret-position="231">
+              <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
               <folding>
                 <element signature="method#par#0;class#Application#0" />
                 <element signature="method#maior#0;class#Application#0" />
                 <element signature="method#impares#0;class#Application#0" />
                 <element signature="method#impardesafio#0;class#Application#0" />
-                <element signature="e#2297#2298#0" expanded="true" />
-                <element signature="e#2343#2344#0" expanded="true" />
+                <element signature="method#contatexto#0;class#Application#0" />
+                <element signature="method#contatextosemespaco#0;class#Application#0" />
+                <element signature="e#2666#2667#0" expanded="true" />
+                <element signature="e#2701#2702#0" expanded="true" />
                 <element signature="method#primeironome#0;class#Application#0" />
                 <element signature="method#separartexto#0;class#Application#0" />
                 <element signature="method#contarvogais#0;class#Application#0" />
@@ -39,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/Teste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+            <state relative-caret-position="1581">
+              <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -109,7 +110,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573674140611" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573674859349" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -125,7 +126,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Teste.deveContarLetrasDoTexto">
+  <component name="RunManager" selected="JUnit.Teste">
+    <configuration name="Teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Db1StartAula02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.db1.db1start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.db1.db1start" />
+      <option name="MAIN_CLASS_NAME" value="com.db1.db1start.Teste" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Teste.deveContarLetrasDoTexto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Db1StartAula02" />
       <extension name="coverage">
@@ -158,7 +173,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste.deveRetornarAreaTrianguloPorLado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Teste.deveRetornarTextoSemEspaco" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Db1StartAula02" />
       <extension name="coverage">
         <pattern>
@@ -168,7 +183,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.Teste" />
-      <option name="METHOD_NAME" value="deveRetornarAreaTrianguloPorLado" />
+      <option name="METHOD_NAME" value="deveRetornarTextoSemEspaco" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,29 +205,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste.deveSubstituirPrimeiroNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Db1StartAula02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.db1.db1start.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.db1.db1start" />
-      <option name="MAIN_CLASS_NAME" value="com.db1.db1start.Teste" />
-      <option name="METHOD_NAME" value="deveSubstituirPrimeiroNome" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Teste.deveContarLetrasDoTexto" />
+        <item itemvalue="JUnit.Teste" />
+        <item itemvalue="JUnit.Teste.deveRetornarTextoSemEspaco" />
         <item itemvalue="JUnit.Teste.deveContarLetrasSemEspaco" />
+        <item itemvalue="JUnit.Teste.deveContarLetrasDoTexto" />
         <item itemvalue="JUnit.Teste.deveSepararOTexto" />
-        <item itemvalue="JUnit.Teste.deveSubstituirPrimeiroNome" />
-        <item itemvalue="JUnit.Teste.deveRetornarAreaTrianguloPorLado" />
       </list>
     </recent_temporary>
   </component>
@@ -230,18 +229,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Teste_deveRetornarImparesDesafio - 2019.11.13 at 14h 51m 13s.xml">
-      <configuration name="Teste.deveRetornarImparesDesafio" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Teste - 2019.11.13 at 14h 51m 22s.xml">
-      <configuration name="Teste" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Teste_deveRetornarAreaTrianguloPorBaseAltura - 2019.11.13 at 16h 33m 31s.xml">
-      <configuration name="Teste.deveRetornarAreaTrianguloPorBaseAltura" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Teste_deveRetornarAreaTrianguloPorLado - 2019.11.13 at 16h 56m 07s.xml">
-      <configuration name="Teste.deveRetornarAreaTrianguloPorLado" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Teste_deveSepararOTexto - 2019.11.13 at 16h 57m 25s.xml">
       <configuration name="Teste.deveSepararOTexto" configurationId="JUnit" />
     </history-entry>
@@ -259,6 +246,18 @@
     </history-entry>
     <history-entry file="Teste_deveSepararOTexto - 2019.11.13 at 17h 27m 25s.xml">
       <configuration name="Teste.deveSepararOTexto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveContarLetrasSemEspaco - 2019.11.13 at 17h 41m 34s.xml">
+      <configuration name="Teste.deveContarLetrasSemEspaco" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveContarLetrasDoTexto - 2019.11.13 at 17h 41m 55s.xml">
+      <configuration name="Teste.deveContarLetrasDoTexto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveContarLetrasDoTexto - 2019.11.13 at 17h 42m 03s.xml">
+      <configuration name="Teste.deveContarLetrasDoTexto" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Teste_deveContarLetrasSemEspaco - 2019.11.13 at 17h 45m 25s.xml">
+      <configuration name="Teste.deveContarLetrasSemEspaco" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -329,15 +328,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+        <state relative-caret-position="231">
+          <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
           <folding>
             <element signature="method#par#0;class#Application#0" />
             <element signature="method#maior#0;class#Application#0" />
             <element signature="method#impares#0;class#Application#0" />
             <element signature="method#impardesafio#0;class#Application#0" />
-            <element signature="e#2297#2298#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="method#contatexto#0;class#Application#0" />
+            <element signature="method#contatextosemespaco#0;class#Application#0" />
+            <element signature="e#2666#2667#0" expanded="true" />
+            <element signature="e#2701#2702#0" expanded="true" />
             <element signature="method#primeironome#0;class#Application#0" />
             <element signature="method#separartexto#0;class#Application#0" />
             <element signature="method#contarvogais#0;class#Application#0" />
@@ -350,8 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/Teste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+        <state relative-caret-position="1581">
+          <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
         </state>
       </provider>
     </entry>
