@@ -137,6 +137,34 @@ public class Teste {
         String response = application.invertertexto("ABC");
         Assert.assertEquals(expected, response);
      }
+    @Test
+    public void deveRetornarMenorDouble(){
+        Application application = new Application();
+        Double expected = 10.0;
+        Double response = application.menorduble(10.0, 11.0);
+        Assert.assertEquals(expected, response);
+     }
+    @Test
+    public void deveRetornarMenorDouble3(){
+        Application application = new Application();
+        Double expected = 11.0;
+        Double response = application.menorduble3(15.0, 11.0, 100.0);
+        Assert.assertEquals(expected, response);
+     }
+    @Test
+    public void deveRetornarMediaDe3(){
+        Application application = new Application();
+        Double expected = 30.0;
+        Double response = application.mediade3(30.0, 30.0, 30.0);
+        Assert.assertEquals(expected, response);
+     }
+    @Test
+    public void deveRetornarAreaTriangulo(){
+        Application application = new Application();
+        Double expected = 187.5;
+        Double response = application.areatriangulo(25.0, 15.0);
+        Assert.assertEquals(expected, response);
+     }
 
 
 

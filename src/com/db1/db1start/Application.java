@@ -90,5 +90,33 @@ public class Application {
         String invertido = new StringBuilder(texto).reverse().toString();
         return (invertido);
     }
+    public Double menorduble(Double num1, Double num2){
+        if (num1 < num2){
+            return num1;
+        }
+        return (num2);
+    }
+    public Double menorduble3(Double num1, Double num2, Double num3){
 
+        if (num1 < num2 && num1 < num3){
+            return num1;
+        }else if(num2 < num3 && num2 < num1) {
+            return num2;
+        }
+        return (num3);
+    }
+//    public Double menorduble3(Double num1, Double num2, Double num3){
+//        if (num1 < num2 && num1 < num3){
+//            return num1;
+//        }else if(num2 < num3 && num2 < num1) {
+//            return num3;
+//        }
+//        return (num2);
+//    }
+    public Double mediade3(Double num1, Double num2, Double num3){
+        return ((num1 + num2 + num3)/3);
+    }
+    public Double areatriangulo(Double num1, Double num2){
+        return ((num1 * num2)/2);
+    }
 }

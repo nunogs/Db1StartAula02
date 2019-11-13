@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="062547c2-732b-4103-9052-b5cd17897ec3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Db1StartAula02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Db1StartAula02.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/Teste.java" afterDir="false" />
     </list>
@@ -52,23 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Teste.deveInverterTexto">
-    <configuration name="Teste.deveContarVogais" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Db1StartAula02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.db1.db1start.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.db1.db1start" />
-      <option name="MAIN_CLASS_NAME" value="com.db1.db1start.Teste" />
-      <option name="METHOD_NAME" value="deveContarVogais" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Teste.deveRetornarAreaTriangulo">
     <configuration name="Teste.deveInverterTexto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Db1StartAula02" />
       <extension name="coverage">
@@ -85,7 +67,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste.deveRetornarUltimas4Letras" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Teste.deveRetornarAreaTriangulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Db1StartAula02" />
       <extension name="coverage">
         <pattern>
@@ -95,13 +77,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.Teste" />
-      <option name="METHOD_NAME" value="deveRetornarUltimas4Letras" />
+      <option name="METHOD_NAME" value="deveRetornarAreaTriangulo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste.deveSepararOTexto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Teste.deveRetornarMediaDe3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Db1StartAula02" />
       <extension name="coverage">
         <pattern>
@@ -111,13 +93,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.Teste" />
-      <option name="METHOD_NAME" value="deveSepararOTexto" />
+      <option name="METHOD_NAME" value="deveRetornarMediaDe3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste.deveSubstituirPrimeiroNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Teste.deveRetornarMenorDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Db1StartAula02" />
       <extension name="coverage">
         <pattern>
@@ -127,7 +109,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.Teste" />
-      <option name="METHOD_NAME" value="deveSubstituirPrimeiroNome" />
+      <option name="METHOD_NAME" value="deveRetornarMenorDouble" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Teste.deveRetornarMenorDouble3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Db1StartAula02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.db1.db1start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.db1.db1start" />
+      <option name="MAIN_CLASS_NAME" value="com.db1.db1start.Teste" />
+      <option name="METHOD_NAME" value="deveRetornarMenorDouble3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Teste.deveRetornarAreaTriangulo" />
+        <item itemvalue="JUnit.Teste.deveRetornarMediaDe3" />
+        <item itemvalue="JUnit.Teste.deveRetornarMenorDouble3" />
+        <item itemvalue="JUnit.Teste.deveRetornarMenorDouble" />
         <item itemvalue="JUnit.Teste.deveInverterTexto" />
-        <item itemvalue="JUnit.Teste.deveContarVogais" />
-        <item itemvalue="JUnit.Teste.deveSepararOTexto" />
-        <item itemvalue="JUnit.Teste.deveSubstituirPrimeiroNome" />
-        <item itemvalue="JUnit.Teste.deveRetornarUltimas4Letras" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +159,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
