@@ -40,7 +40,7 @@ public class UsandoListas {
         }
         System.out.println("Com for-each, com lambda");
         frutas.forEach( f -> System.out.println(f);
-        //frutas.forEach(System.out::println);
+        // //frutas.forEach(System.out::println);
 
         for (String fruta : frutas ){
             System.out.println(fruta);
