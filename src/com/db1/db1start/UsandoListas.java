@@ -15,46 +15,75 @@ public class UsandoListas {
         frutas.add("Morango");
 
         frutas.addAll(Arrays.asList("Jaca", "Caju"));
-        imprimir("Frutas iniciais: ", frutas);
+        imprimir("Frutas iniciais:", frutas);
 
         frutas.add("Banana");
-        imprimir("Adicionando uma banana", frutas);
+        imprimir("Mais frutas", frutas);
 
-        System.out.println(frutas.indexOf("Banana"));
+        imprimirEstatisticas(frutas);
+
         frutas.remove("Banana");
-        imprimir("Removendo uma banana", frutas);
+        imprimir("Sem uma Banana", frutas);
+
+        frutas.remove(1);
+        imprimir("Removendo o segundo", frutas);
+
+        frutas.remove(1);
+        imprimir("Removendo o segundo novamente", frutas);
+
+        frutas.add(1, "Jambo");
+        imprimir("Adicionando no segundo", frutas);
 
         frutas.removeAll(Arrays.asList("Figo", "Caju"));
-        imprimir("Removendo mais frutas ", frutas);
+        imprimir("Removendo vários", frutas);
 
-        frutas.removeIf(it -> it.equals("Banana"));
+        frutas.removeIf(it -> it.startsWith("J"));
+        //frutas.removeIf(it -> it.equals("Banana"));
+        imprimir("Removendo 'J'...", frutas);
 
-        frutas.removeIf(f -> f.startsWith("J"));
-        imprimir("Removendo apartir de uma letra ,j", frutas);
-        for (int i = 0 ; i < frutas.size(); i++ ){
+        System.out.println("Com for indexado");
+        for (int i = 0; i < frutas.size(); i++) {
             System.out.println(frutas.get(i));
         }
+
+        separar();
         System.out.println("Com for-each");
-        for (String fruta : frutas ){
-            System.out.println(fruta);
-        }
-        System.out.println("Com for-each, com lambda");
-        frutas.forEach( f -> System.out.println(f);
-        // //frutas.forEach(System.out::println);
-
-        for (String fruta : frutas ){
+        for (String fruta : frutas) {
             System.out.println(fruta);
         }
 
-
+        separar();
+        System.out.println("Com for-each com lambda");
+        frutas.forEach(f -> System.out.println(f));
+//        frutas.forEach(f -> {
+//            System.out.println(f);
+//        });
+        //frutas.forEach(System.out::println);
+    }
+//    Map<String, String> m = new HashMap<>();
+//    m.put("Nome", "Robson");
+//
+//    ArrayList<String> x = new ArrayList<>();
+//    x.addAll(Arrays.asList("A", "B"));
+//
+//    ArrayList<String> y = new ArrayList<>(
+//            Arrays.asList("A", "B"));
+    private static void imprimir(String titulo, List<String> frutas) {
+        System.out.println(titulo);
+        System.out.println(frutas);
+        separar();
     }
 
-    private static void imprimir(String texto, List<String> frutas) {
-        System.out.println(" ");
-        System.out.println(texto + frutas);
-        System.out.println( " ");
-        System.out.println("---------------------------------------------------------------------------------");
+    private static void separar() {
+        System.out.println("------------------");
     }
 
+    private static void imprimirEstatisticas(List<String> frutas) {
+        System.out.println("Primeiro Banana " +
+                frutas.indexOf("Banana"));
+        System.out.println("Última Banana " +
+                frutas.lastIndexOf("Banana"));
+        System.out.println("Tamanho " + frutas.size());
+    }
 
 }
