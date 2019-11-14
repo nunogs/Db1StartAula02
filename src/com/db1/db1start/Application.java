@@ -1,6 +1,7 @@
 package com.db1.db1start;
 
 public class Application {
+    //                                  --------------- Exercicios de inteiro ---------------
     // Ex 1  Método que some dois números
     public Integer soma(Integer num1, Integer num2){
         return (num1 + num2);
@@ -58,7 +59,7 @@ public class Application {
     }
 
 
-    // --------------- exercicio de texto ---------------
+    //                                  --------------- Exercicios de texto ---------------
     // Ex 1  Método que receba um texto e devolva ele em LETRAS MAIUSCULAS
     public String maiusculas(String texto){
         return (texto.toUpperCase());
@@ -142,7 +143,7 @@ public class Application {
     }
 
 
-    // ---------------- Exercicios de Double -------------
+    //                                  --------------- Exercicios de Double ---------------
     // Ex 1  Método que exiba qual é o menor valor entre dois doubles
     public Double menorduble(Double num1, Double num2){
         if (num1 < num2){
