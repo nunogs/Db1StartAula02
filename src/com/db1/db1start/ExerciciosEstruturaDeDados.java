@@ -15,8 +15,8 @@ public class ExerciciosEstruturaDeDados {
 
         //Método que receba 3 String, adicione todos em uma lista e remova a segunda posição
         List<String> listaqualquer = criarListaDeTres("Item1", "Item2", "Item3");
-        imprimirLista("Imprimindo a lista de itens completa: " , listaqualquer);
-        imprimirLista("Imprimindo a lista de itens sem o segundo item: " , removerSegundoItem(listaqualquer));
+        imprimirLista("Imprimindo a lista de itens completa: ", listaqualquer);
+        imprimirLista("Imprimindo a lista de itens sem o segundo item: ", removerSegundoItem(listaqualquer));
         separar();
 
         //Método que imprima a lista de cores do primeiro método
@@ -29,14 +29,14 @@ public class ExerciciosEstruturaDeDados {
 
         //Método que receba uma lista das cores que você mais gosta e o nome de uma cor a ser removida
         List<String> outrascores = criarListaDeTres("Azul", "Verde", "Magenta");
-        imprimirLista("A lista completa é: " , outrascores);
+        imprimirLista("A lista completa é: ", outrascores);
         removerItemPorNome(outrascores, "Magenta");
         imprimirLista("A lista sem a cor 'magenta' fica: ", outrascores);
         separar();
 
         //Método que receba a lista de cores que você gosta e imprima em ordem decrescente (alfabética)
         ordenarDescrescenteListas(cores);
-        imprimirLista("Lista em ordem decescente " , cores);
+        imprimirLista("Lista em ordem decescente ", cores);
         separar();
 
         //Método que receba uma lista de números e retorne um mapa com listas de números pares e impares
@@ -46,7 +46,29 @@ public class ExerciciosEstruturaDeDados {
         Map<Integer, String> mapanumeros = mapaParImpar(numeros);
         imprimirMapa("O mapa que mostra numeros e suas propriedades fica: ", mapanumeros);
 
+        //#2 Método que receba uma lista de números e retorne um mapa com listas de números pares e impares
+        List<Integer> numeros2 = new ArrayList<>();
+        numeros2.addAll(Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+        dividirParImpar(numeros2);
+
     }
+
+    private static void dividirParImpar(List<Integer> numeros2) {
+        Map<String, List<Integer>> mapaParImpar = new HashMap<>();
+        List<Integer> numPares = new ArrayList<>();
+        List<Integer> numImpares = new ArrayList<>();
+        for (Integer item : numeros2 ){
+            if (item % 2 == 0) {
+                numPares.add(item);
+            } else {
+                numImpares.add(item);
+            }
+        }
+        mapaParImpar.put("Números pares: ", numPares);
+        mapaParImpar.put("Números impares", numImpares);
+        imprimirMapaChaves("O mapa ficou: ", mapaParImpar);
+    }
+
 
     private static Map<Integer, String> mapaParImpar(List<Integer> numeros) {
         Map<Integer, String> mapaNumeros = new HashMap<>();
@@ -61,6 +83,12 @@ public class ExerciciosEstruturaDeDados {
     }
 
     private static void imprimirMapa(String texto, Map<Integer, String> mapa) {
+        System.out.println(" ");
+        System.out.println(texto);
+        System.out.println(mapa);
+        System.out.println(" ");
+    }
+    private static void imprimirMapaChaves(String texto, Map<String, List<Integer>> mapa) {
         System.out.println(" ");
         System.out.println(texto);
         System.out.println(mapa);
