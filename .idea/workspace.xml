@@ -4,7 +4,6 @@
     <list default="true" id="062547c2-732b-4103-9052-b5cd17897ec3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Db1StartAula02/com/db1/db1start/ExerciciosEstruturaDeDados.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Db1StartAula02/com/db1/db1start/ExerciciosEstruturaDeDados.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Db1StartAula02/com/db1/db1start/UsandoListas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Db1StartAula02/com/db1/db1start/UsandoListas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/ExerciciosEstruturaDeDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/ExerciciosEstruturaDeDados.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -151,11 +150,6 @@
       <updated>1573585491840</updated>
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Teste - 2019.11.14 at 16h 02m 59s.xml">
-      <configuration name="Teste" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
