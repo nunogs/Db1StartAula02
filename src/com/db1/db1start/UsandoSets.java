@@ -19,11 +19,11 @@ public class UsandoSets {
         imprimirSet("A lista inteira fica: ", nomes);
         separar();
         //Remova os nomes "Suzete" OU começados com "F" ou terminados em "naldo"
-        for (Integer item  : nomes){
-            nomes.removeIf(n -> n.equals("Suzete"));
-            nomes.removeIf(n -> n.startsWith("F"));
-            nomes.removeIf(n ->n.endsWith("naldo"));
-        }
+
+        nomes.removeIf(n -> n.equals("Suzete"));
+        nomes.removeIf(n -> n.startsWith("F"));
+        nomes.removeIf(n ->n.endsWith("naldo"));
+
         imprimirSet("O set sem Suzete ou começados em F ou terminados em naldo fica: ",nomes);
 
 
